@@ -11,12 +11,11 @@ public class ExercicioUm {
 			}
 			
 	}	
-		    //Outra forma de fazer !
-			//boolean diaSemana = (dia == "segunda" || dia == "terça"  || dia == "quarta"  || dia == "quinta"  || dia == "sexta"  || dia == "sabado"  || dia == "domingo" );   
+		    //boolean diaSemana = (dia == "segunda" || dia == "terça"  || dia == "quarta"  || dia == "quinta"  || dia == "sexta"  || dia == "sabado"  || dia == "domingo" );   
 			//return diaSemana;	
 	
 	public static void main(String[] args) {
 		
-		System.out.println(ehDiaSemana("domingo"));
+		System.out.println(ehDiaSemana("quarta"));
 	}
 }

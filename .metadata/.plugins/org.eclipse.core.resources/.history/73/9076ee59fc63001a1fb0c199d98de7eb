@@ -1,0 +1,20 @@
+
+public class ExercicioDois {
+	public static boolean possoIrAoBanco ( String dia, int hora) {
+		
+		
+		return !((dia.equalsIgnoreCase("domingo") || dia.equalsIgnoreCase("sabado")) && hora <= 9 && hora >= 16 ); 
+			
+			
+			//return false;
+		//}else {
+			//return true;
+		//}
+		
+		
+	}
+	public static void main(String[] args) {
+		
+		System.out.println(possoIrAoBanco("batata", 13));
+	}
+}
