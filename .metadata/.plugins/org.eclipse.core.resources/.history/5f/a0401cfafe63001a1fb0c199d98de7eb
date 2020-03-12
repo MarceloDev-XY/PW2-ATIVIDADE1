@@ -15,6 +15,6 @@ public class ExercicioDois {
 	}
 	public static void main(String[] args) {
 		
-		System.out.println(possoIrAoBanco("Domingo", 13));
+		System.out.println(possoIrAoBanco("Segunda", 13));
 	}
 }
